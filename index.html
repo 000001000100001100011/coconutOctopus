@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fatty Liver (NAFLD / MASLD): Early Signs, Warning Signs &amp; Late Symptoms — An Educational Reference</title>
+<meta name="description" content="An evidence-based, plain-language educational page about Non-Alcoholic Fatty Liver Disease (NAFLD), now called MASLD. Covers early, moderate and late-stage signs, emergency warning signs, testing and treatment. Information only — not a diagnosis.">
+<style>
+:root{
+  --ink:#12211f;
+  --ink-soft:#3d5250;
+  --ink-mute:#6b7f7d;
+  --bg:#f5f7f5;
+  --card:#ffffff;
+  --line:#dfe7e4;
+  --teal:#0b6b62;
+  --teal-dk:#064a44;
+  --teal-lt:#e3f2ef;
+  --amber:#b4690a;
+  --amber-lt:#fdf2e0;
+  --red:#a51f1f;
+  --red-lt:#fdecec;
+  --s0:#2e7d5b; --s1:#4f9a3f; --s2:#d19414; --s3:#cf5b18; --s4:#a32320; --s5:#6d1512;
+  --radius:14px;
+  --shadow:0 1px 2px rgba(16,40,37,.06), 0 8px 24px rgba(16,40,37,.06);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; -webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  font-size:17px; line-height:1.65; letter-spacing:.01em;
+}
+h1,h2,h3,h4{line-height:1.22; font-weight:800; letter-spacing:-.015em; margin:0 0 .5em}
+h1{font-size:clamp(2rem,5.2vw,3.15rem)}
+h2{font-size:clamp(1.5rem,3.4vw,2.05rem)}
+h3{font-size:1.18rem}
+p{margin:0 0 1em}
+a{color:var(--teal-dk)}
+a:hover{color:var(--teal)}
+ul,ol{margin:0 0 1em; padding-left:1.25em}
+li{margin-bottom:.42em}
+strong{font-weight:700}
+small{font-size:.86rem}
+.wrap{width:100%; max-width:1060px; margin:0 auto; padding:0 20px}
+.narrow{max-width:800px}
+.skip{position:absolute; left:-9999px; top:0; background:var(--teal-dk); color:#fff; padding:10px 16px; z-index:999; border-radius:0 0 8px 0}
+.skip:focus{left:0}
+
+/* ---------- disclaimer bars ---------- */
+.disclaimer{
+  background:var(--amber-lt); border-bottom:1px solid #ecd9b4; color:#6d4307;
+  font-size:.9rem; padding:9px 0; text-align:center;
+}
+.disclaimer strong{color:#5a3705}
+.banner{
+  background:linear-gradient(135deg,#fff6e6,#fdeedd); border:1px solid #eed9b0;
+  border-left:6px solid var(--amber); border-radius:var(--radius); padding:20px 22px; margin:26px 0;
+}
+.banner h2{font-size:1.15rem; color:#7a4a06; margin-bottom:.4em}
+.banner p:last-child{margin-bottom:0}
+
+/* ---------- header ---------- */
+header.top{
+  background:#08342f; color:#eaf5f2;
+  background-image:radial-gradient(1000px 400px at 85% -10%, rgba(24,163,148,.35), transparent 60%),
+                   radial-gradient(700px 320px at 5% 110%, rgba(180,105,10,.28), transparent 60%);
+}
+.nav{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 0; border-bottom:1px solid rgba(255,255,255,.13)}
+.brand{display:flex; align-items:center; gap:11px; font-weight:800; letter-spacing:-.01em; color:#fff; text-decoration:none; font-size:1.02rem}
+.brand svg{flex:0 0 auto}
+.navlinks{display:flex; flex-wrap:wrap; gap:4px; justify-content:flex-end}
+.navlinks a{
+  color:#cfe4e0; text-decoration:none; font-size:.86rem; font-weight:600;
+  padding:6px 10px; border-radius:8px; white-space:nowrap;
+}
+.navlinks a:hover{background:rgba(255,255,255,.12); color:#fff}
+.hero{padding:46px 0 40px}
+.eyebrow{
+  display:inline-flex; align-items:center; gap:8px; background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.22); color:#bfe6df; font-size:.78rem; font-weight:700;
+  letter-spacing:.09em; text-transform:uppercase; padding:6px 12px; border-radius:999px; margin-bottom:18px;
+}
+.hero h1{color:#fff; max-width:19ch}
+.hero .lede{font-size:clamp(1.02rem,2.2vw,1.2rem); color:#d3e7e3; max-width:64ch; margin-bottom:24px}
+.hero .lede em{color:#ffd9a1; font-style:normal; font-weight:700}
+.cta-row{display:flex; flex-wrap:wrap; gap:12px; margin-bottom:30px}
+.btn{
+  display:inline-flex; align-items:center; gap:9px; padding:12px 20px; border-radius:10px;
+  font-weight:700; font-size:.95rem; text-decoration:none; border:1px solid transparent; transition:.16s;
+}
+.btn-primary{background:#f5a524; color:#3d2200}
+.btn-primary:hover{background:#ffb733; color:#3d2200}
+.btn-ghost{background:transparent; color:#fff; border-color:rgba(255,255,255,.4)}
+.btn-ghost:hover{background:rgba(255,255,255,.12); color:#fff}
+.hero-note{
+  background:rgba(0,0,0,.22); border:1px solid rgba(255,255,255,.18); border-radius:12px;
+  padding:14px 18px; font-size:.9rem; color:#e2efec; max-width:70ch;
+}
+.hero-note strong{color:#ffd9a1}
+
+/* ---------- stats ---------- */
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:14px; padding:0 0 8px}
+.stat{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow)}
+.stat .num{font-size:1.85rem; font-weight:800; color:var(--teal-dk); letter-spacing:-.02em; line-height:1.1}
+.stat .lbl{font-size:.87rem; color:var(--ink-mute); margin-top:6px; line-height:1.45}
+.stat sup{color:var(--teal)}
+
+/* ---------- sections ---------- */
+main{padding:8px 0 40px}
+section{padding:44px 0; border-bottom:1px solid var(--line)}
+section:last-of-type{border-bottom:0}
+.sec-head{display:flex; align-items:flex-start; gap:14px; margin-bottom:22px}
+.sec-num{
+  flex:0 0 auto; width:38px; height:38px; border-radius:10px; background:var(--teal-lt);
+  color:var(--teal-dk); display:flex; align-items:center; justify-content:center;
+  font-weight:800; font-size:.95rem; border:1px solid #c9e3dd;
+}
+.sec-head h2{margin-bottom:.2em}
+.sec-head p{margin:0; color:var(--ink-mute); font-size:.98rem; max-width:70ch}
+.card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:22px 24px; box-shadow:var(--shadow); margin-bottom:18px}
+.grid-2{display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:16px}
+.grid-3{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px}
+
+/* name change table */
+table{width:100%; border-collapse:collapse; font-size:.92rem; margin:6px 0 4px}
+th,td{text-align:left; padding:11px 12px; border-bottom:1px solid var(--line); vertical-align:top}
+thead th{background:#f0f5f3; color:var(--teal-dk); font-size:.8rem; text-transform:uppercase; letter-spacing:.06em; font-weight:800}
+tbody tr:last-child td{border-bottom:0}
+.tbl-scroll{overflow-x:auto; -webkit-overflow-scrolling:touch}
+code{background:#eef4f2; padding:2px 6px; border-radius:5px; font-size:.88em; color:var(--teal-dk); font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+
+/* ---------- stage ladder ---------- */
+.ladder{display:flex; flex-direction:column; gap:10px}
+.rung{
+  display:grid; grid-template-columns:auto 1fr; gap:16px; align-items:start;
+  background:var(--card); border:1px solid var(--line); border-left:6px solid var(--c,#888);
+  border-radius:12px; padding:16px 18px; box-shadow:var(--shadow);
+}
+.rung .dot{
+  width:44px; height:44px; border-radius:11px; background:var(--c); color:#fff;
+  display:flex; align-items:center; justify-content:center; font-weight:800; font-size:.82rem; text-align:center; line-height:1.05;
+}
+.rung h3{margin-bottom:4px; font-size:1.06rem}
+.rung .tag{display:inline-block; font-size:.74rem; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+  color:var(--c); background:var(--tint,#f3f6f5); border:1px solid var(--edge,#dfe7e4);
+  padding:2px 8px; border-radius:999px; margin-bottom:8px}
+.rung p{margin:0 0 6px; font-size:.95rem; color:var(--ink-soft)}
+.rung .rev{font-size:.86rem; color:var(--ink-mute); margin:0}
+.rung .rev b{color:var(--teal-dk)}
+.arrow{text-align:center; color:var(--ink-mute); font-size:1.1rem; line-height:.6; margin:-4px 0}
+
+/* ---------- symptom columns ---------- */
+.stage-cols{display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:18px; align-items:start}
+.scol{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow)}
+.scol > header{padding:16px 20px; color:#fff}
+.scol.early > header{background:linear-gradient(135deg,#2e7d5b,#3f9a6d)}
+.scol.mid > header{background:linear-gradient(135deg,#c07d10,#d99a22)}
+.scol.late > header{background:linear-gradient(135deg,#8f1d1a,#b52c28)}
+.scol > header h3{margin:0 0 4px; font-size:1.08rem; color:#fff}
+.scol > header p{margin:0; font-size:.85rem; opacity:.93}
+.scol .body{padding:18px 20px}
+.scol ul{list-style:none; padding:0; margin:0}
+.scol li{position:relative; padding-left:24px; margin-bottom:11px; font-size:.95rem; color:var(--ink-soft)}
+.scol li::before{content:""; position:absolute; left:2px; top:.55em; width:9px; height:9px; border-radius:50%; background:currentColor; opacity:.5}
+.scol.early li::before{background:var(--s0)}
+.scol.mid li::before{background:var(--s2)}
+.scol.late li::before{background:var(--s4)}
+.scol li b{color:var(--ink); font-weight:700}
+.note-in{background:#f6f9f8; border:1px dashed #cfdcd8; border-radius:10px; padding:12px 14px; font-size:.87rem; color:var(--ink-mute); margin-top:14px}
+.note-in strong{color:var(--teal-dk)}
+
+/* ---------- red alert ---------- */
+.alert{
+  background:linear-gradient(160deg,#5d0f0d,#8e1c18); color:#ffeceb;
+  border-radius:18px; padding:26px 26px 22px; box-shadow:0 10px 30px rgba(120,20,16,.28);
+}
+.alert .flag{display:inline-flex; align-items:center; gap:9px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.28);
+  padding:6px 13px; border-radius:999px; font-size:.78rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; margin-bottom:14px}
+.alert h2{color:#fff; font-size:clamp(1.4rem,3.4vw,1.9rem); margin-bottom:.3em}
+.alert > p{color:#ffd9d6; max-width:72ch}
+.alert-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:11px; margin:18px 0 8px}
+.alert-item{background:rgba(255,255,255,.09); border:1px solid rgba(255,255,255,.18); border-radius:11px; padding:12px 14px; font-size:.93rem}
+.alert-item b{display:block; color:#fff; font-size:.98rem; margin-bottom:2px}
+.alert-cta{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-top:16px; padding-top:16px; border-top:1px solid rgba(255,255,255,.2)}
+.alert-cta .btn-primary{background:#fff; color:#8e1c18}
+.alert-cta .btn-primary:hover{background:#ffe9e7; color:#8e1c18}
+.alert-cta span{font-size:.88rem; color:#ffd9d6}
+
+/* ---------- risk cards ---------- */
+.risk{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 18px; box-shadow:var(--shadow)}
+.risk h3{font-size:1rem; margin-bottom:6px; display:flex; align-items:center; gap:8px}
+.risk p{font-size:.9rem; color:var(--ink-mute); margin:0}
+.pill{display:inline-block; background:var(--teal-lt); color:var(--teal-dk); border:1px solid #c9e3dd; border-radius:999px;
+  padding:3px 10px; font-size:.78rem; font-weight:700; margin:3px 4px 0 0}
+
+/* ---------- myth ---------- */
+.myth{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 18px; box-shadow:var(--shadow)}
+.myth .m{font-weight:800; color:var(--red); font-size:.98rem; display:flex; gap:8px; margin-bottom:7px}
+.myth .f{font-size:.93rem; color:var(--ink-soft); display:flex; gap:8px}
+.myth .f b{color:var(--teal-dk)}
+.ico{flex:0 0 auto; font-weight:800}
+
+/* ---------- checklist ---------- */
+.checks{list-style:none; padding:0; margin:0; counter-reset:c}
+.checks li{position:relative; padding:0 0 0 40px; margin-bottom:13px; font-size:.96rem; color:var(--ink-soft)}
+.checks li::before{
+  counter-increment:c; content:counter(c); position:absolute; left:0; top:1px;
+  width:26px; height:26px; border-radius:8px; background:var(--teal); color:#fff;
+  display:flex; align-items:center; justify-content:center; font-size:.8rem; font-weight:800;
+}
+.checks b{color:var(--ink)}
+
+/* ---------- PH box ---------- */
+.ph{background:linear-gradient(150deg,#0d3f6b,#123f5c); color:#e7f1fa; border-radius:16px; padding:24px; border:1px solid #1d5480}
+.ph h3{color:#fff}
+.ph .flagrow{display:flex; align-items:center; gap:10px; margin-bottom:14px}
+.ph ul{padding-left:1.1em}
+.ph li{color:#d3e5f4; font-size:.94rem}
+.ph b{color:#ffd9a1}
+.ph .ph-note{margin-top:14px; padding-top:14px; border-top:1px solid rgba(255,255,255,.2); font-size:.86rem; color:#b8d3e8}
+
+/* ---------- FAQ ---------- */
+details{background:var(--card); border:1px solid var(--line); border-radius:11px; margin-bottom:10px; overflow:hidden}
+summary{cursor:pointer; padding:15px 46px 15px 18px; font-weight:700; font-size:.99rem; list-style:none; position:relative; color:var(--ink)}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+"; position:absolute; right:18px; top:50%; transform:translateY(-50%); color:var(--teal); font-size:1.35rem; font-weight:400; line-height:1}
+details[open] summary::after{content:"–"}
+details[open] summary{background:#f7faf9; border-bottom:1px solid var(--line)}
+details .a{padding:16px 18px; font-size:.95rem; color:var(--ink-soft)}
+details .a p:last-child{margin-bottom:0}
+
+/* ---------- sources ---------- */
+.src{font-size:.87rem; color:var(--ink-mute); line-height:1.6}
+.src ol{padding-left:1.4em}
+.src li{margin-bottom:9px; word-break:break-word}
+sup.ref a{text-decoration:none; font-weight:700; color:var(--teal); font-size:.72em}
+sup.ref a:hover{text-decoration:underline}
+
+/* ---------- footer ---------- */
+footer{background:#08342f; color:#b9d3ce; padding:36px 0 30px; font-size:.88rem}
+footer h4{color:#fff; font-size:1rem; margin-bottom:10px}
+footer .fgrid{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:26px; margin-bottom:24px}
+footer a{color:#8fd6c9}
+footer .fine{border-top:1px solid rgba(255,255,255,.16); padding-top:18px; color:#8fa8a3; font-size:.82rem; line-height:1.6}
+footer .fine p{margin-bottom:.6em}
+
+/* ---------- floating help ---------- */
+.float{
+  position:fixed; right:16px; bottom:16px; z-index:60; display:flex; align-items:center; gap:9px;
+  background:var(--red); color:#fff; text-decoration:none; font-weight:800; font-size:.88rem;
+  padding:12px 18px; border-radius:999px; box-shadow:0 8px 22px rgba(140,20,16,.34); border:2px solid rgba(255,255,255,.5);
+}
+.float:hover{background:#8e1c18; color:#fff}
+
+@media (max-width:720px){
+  body{font-size:16px}
+  .nav{flex-direction:column; align-items:flex-start; gap:10px}
+  .navlinks{justify-content:flex-start}
+  .hero{padding:34px 0 30px}
+  section{padding:34px 0}
+  .card,.alert,.ph{padding:18px}
+  .float span{display:none}
+  .float{padding:13px}
+}
+@media print{
+  .nav,.float,.cta-row,.skip{display:none !important}
+  body{background:#fff; font-size:11pt}
+  section{padding:12px 0; border-bottom:1px solid #ccc; page-break-inside:avoid}
+  .alert{background:#fff !important; color:#000 !important; border:2px solid #a51f1f}
+  .alert h2,.alert .alert-item b{color:#a51f1f !important}
+  .alert p,.alert li,.alert .alert-item{color:#222 !important}
+  header.top{background:#fff; color:#000}
+  .hero h1,.hero .lede{color:#000}
+  .card,.stat,.scol,.rung,.risk,.myth{box-shadow:none; border:1px solid #bbb}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none !important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<div class="disclaimer">
+  <div class="wrap"><strong>Educational information only.</strong> This page is not medical advice, not a diagnosis, and not affiliated with any hospital, clinic or government agency. Please see a licensed doctor for confirmation.</div>
+</div>
+
+<header class="top">
+  <div class="wrap">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="#top">
+        <svg width="30" height="30" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <path d="M4 12.5c0-3.6 3.2-6.5 7.5-6.5 3 0 4.6 1.2 6.5 1.2s3.2-.9 5.6-.9c3.2 0 5.4 1.9 5.4 4.6 0 5.4-4.7 8-8.5 10.4-3.2 2-5.6 4.7-9.3 4.7C7.2 26 4 23 4 19.1z" fill="#f5a524"/>
+          <path d="M9 20.6c3.6-.6 6.3-2.4 8.7-4.6 2.3-2.1 4.2-4.6 7.3-5.4" stroke="#08342f" stroke-width="1.6" stroke-linecap="round" opacity=".55"/>
+          <circle cx="21.6" cy="13.2" r="1.7" fill="#08342f" opacity=".45"/>
+          <circle cx="15.2" cy="17.6" r="1.2" fill="#08342f" opacity=".35"/>
+        </svg>
+        Liver&nbsp;Facts
+      </a>
+      <div class="navlinks">
+        <a href="#what">What it is</a>
+        <a href="#stages">Stages</a>
+        <a href="#early">Early signs</a>
+        <a href="#late">Late signs</a>
+        <a href="#warning">Warning</a>
+        <a href="#risk">Who is at risk</a>
+        <a href="#diagnosis">Tests</a>
+        <a href="#treatment">Treatment</a>
+        <a href="#myths">Myths</a>
+        <a href="#philippines">Philippines</a>
+        <a href="#doctor">See a doctor</a>
+        <a href="#sources">Sources</a>
+      </div>
+    </nav>
+
+    <div class="hero" id="top">
+      <span class="eyebrow">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1.2 1.6 13.4a.7.7 0 0 0 .6 1.1h11.6a.7.7 0 0 0 .6-1.1L8 1.2Zm0 4a.8.8 0 0 1 .8.8l-.1 3a.7.7 0 0 1-1.4 0l-.1-3A.8.8 0 0 1 8 5.2Zm0 6.9a.95.95 0 1 1 0-1.9.95.95 0 0 1 0 1.9Z"/></svg>
+        Health literacy · Not a diagnosis
+      </span>
+      <h1>Fatty liver disease rarely hurts — until it's late.</h1>
+      <p class="lede">
+        Non-Alcoholic Fatty Liver Disease (<b>NAFLD</b>) — officially renamed <b>MASLD</b> in 2023 — is the most common
+        chronic liver disease on Earth, affecting roughly <em>1 in 3 adults</em>. Most people feel completely normal while
+        fat, then inflammation, then scar tissue quietly builds up over years or decades. This page explains what to watch
+        for at each stage — and why the only way to know for sure is a proper medical check-up.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#warning">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1.2 1.6 13.4a.7.7 0 0 0 .6 1.1h11.6a.7.7 0 0 0 .6-1.1L8 1.2Zm0 4a.8.8 0 0 1 .8.8l-.1 3a.7.7 0 0 1-1.4 0l-.1-3A.8.8 0 0 1 8 5.2Zm0 6.9a.95.95 0 1 1 0-1.9.95.95 0 0 1 0 1.9Z"/></svg>
+          Jump to the emergency warning signs
+        </a>
+        <a class="btn btn-ghost" href="#early">Read from the beginning</a>
+      </div>
+      <p class="hero-note">
+        <strong>Before you read on:</strong> everything here is compiled from published medical literature and national
+        health guidance to help you have a better conversation with your doctor. It cannot tell you whether <em>you</em>
+        have fatty liver. No website can. Symptoms listed here overlap with dozens of other conditions — and fatty liver
+        itself is often completely silent. <strong>Only blood tests, imaging and a clinician's assessment can confirm it.</strong>
+      </p>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<div class="wrap">
+
+  <!-- STATS -->
+  <section aria-labelledby="stats-h" style="border-bottom:1px solid var(--line)">
+    <h2 id="stats-h" class="skip" style="position:absolute;left:-9999px">Key numbers</h2>
+    <div class="stats">
+      <div class="stat">
+        <div class="num">~30%</div>
+        <div class="lbl">of the world's adult population is estimated to have fatty liver disease — the most common chronic liver disease globally.<sup class="ref"><a href="#s1">[1]</a><a href="#s8">[8]</a></sup></div>
+      </div>
+      <div class="stat">
+        <div class="num">~42%</div>
+        <div class="lbl">estimated prevalence in South-East Asia — the highest of any Asian sub-region.<sup class="ref"><a href="#s6">[6]</a></sup></div>
+      </div>
+      <div class="stat">
+        <div class="num">Up to 80%</div>
+        <div class="lbl">of people with early fatty liver have <b>no symptoms at all</b>. Damage can progress silently for years.<sup class="ref"><a href="#s2">[2]</a><a href="#s3">[3]</a></sup></div>
+      </div>
+      <div class="stat">
+        <div class="num">20–30%</div>
+        <div class="lbl">of people with MASLD go on to develop MASH — the inflamed, scarring form.<sup class="ref"><a href="#s4">[4]</a></sup></div>
+      </div>
+      <div class="stat">
+        <div class="num">No.&nbsp;1</div>
+        <div class="lbl">cause of death in people with fatty liver is <b>heart disease</b>, not liver failure.<sup class="ref"><a href="#s4">[4]</a><a href="#s7">[7]</a></sup></div>
+      </div>
+      <div class="stat">
+        <div class="num">5–10%</div>
+        <div class="lbl">body-weight loss can reduce liver fat, inflammation and even improve scarring.<sup class="ref"><a href="#s9">[9]</a></sup></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1. WHAT IT IS -->
+  <section id="what" aria-labelledby="what-h">
+    <div class="sec-head">
+      <div class="sec-num">1</div>
+      <div>
+        <h2 id="what-h">What is NAFLD — and why is everyone now calling it MASLD?</h2>
+        <p>The condition didn't change. The name did.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <p>
+        Your liver processes fat. When more than about <b>5% of the liver's weight is fat</b>, doctors call it a
+        "fatty liver" (<i>hepatic steatosis</i>).<sup class="ref"><a href="#s5">[5]</a></sup> If that fat is not caused by significant
+        alcohol use, and the person has at least one metabolic risk factor — such as excess body weight, elevated blood
+        sugar, high blood pressure or abnormal cholesterol — the diagnosis is <b>fatty liver disease of metabolic origin</b>.
+      </p>
+      <p>
+        For nearly 40 years that condition was called <b>Non-Alcoholic Fatty Liver Disease (NAFLD)</b>. In <b>June 2023</b>,
+        three major liver societies (AASLD, EASL and ALEH) published a multi-society Delphi consensus — 236 experts from
+        56 countries — that retired the old name.<sup class="ref"><a href="#s1">[1]</a></sup> The reasons: "non-alcoholic" defined the disease
+        by what it <i>wasn't</i>, and both "non-alcoholic" and "fatty" were rated as stigmatising by a majority of the panel.
+        The new name points at the actual driver: <b>metabolic dysfunction</b>.
+      </p>
+      <p style="margin-bottom:0">
+        If your lab result, ultrasound report or old chart says "NAFLD" or "NASH," <b>that diagnosis is still valid</b> —
+        it's simply the older wording for the same disease.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Old name → new name</h3>
+      <div class="tbl-scroll">
+        <table>
+          <thead>
+            <tr><th scope="col">Before 2023</th><th scope="col">Current term</th><th scope="col">What it means</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><b>NAFLD</b><br><small>Non-Alcoholic Fatty Liver Disease</small></td><td><b>MASLD</b><br><small>Metabolic dysfunction-Associated Steatotic Liver Disease</small></td><td>Fat in the liver plus at least one cardiometabolic risk factor. The umbrella diagnosis most people mean by "fatty liver."</td></tr>
+            <tr><td><b>NASH</b><br><small>Non-Alcoholic Steatohepatitis</small></td><td><b>MASH</b><br><small>Metabolic dysfunction-Associated Steatohepatitis</small></td><td>The more serious inflammatory stage — fat <i>plus</i> liver-cell injury and scarring. This is the stage that leads to cirrhosis.</td></tr>
+            <tr><td><i>(no category existed)</i></td><td><b>MetALD</b></td><td>New 2023 category for people who have metabolic risk <i>and</i> drink a meaningful amount of alcohol (about 140–350 g/week for women, 210–420 g/week for men).</td></tr>
+            <tr><td><i>—</i></td><td><b>SLD</b><br><small>Steatotic Liver Disease</small></td><td>The overarching family covering MASLD, MetALD, alcohol-related liver disease and drug-induced fatty liver.</td></tr>
+            <tr><td><b>Cryptogenic NASH</b></td><td><b>Cryptogenic SLD</b></td><td>Fatty liver with no identifiable metabolic or alcohol cause.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note-in" style="margin-bottom:0"><strong>Why this matters to you:</strong> if you search online for "NASH treatment" you'll find older guidance. Search <em>MASLD</em> or <em>MASH</em> for what's current. And when a doctor explains your results, both sets of terms may be used interchangeably.</p>
+    </div>
+  </section>
+
+  <!-- 2. STAGES -->
+  <section id="stages" aria-labelledby="stages-h">
+    <div class="sec-head">
+      <div class="sec-num">2</div>
+      <div>
+        <h2 id="stages-h">How the disease progresses — stage by stage</h2>
+        <p>Fatty liver is a spectrum, not a single event. Understanding where a stage sits tells you what symptoms to expect — and how reversible it still is.</p>
+      </div>
+    </div>
+
+    <div class="ladder">
+      <div class="rung" style="--c:var(--s0); --tint:rgba(46,125,91,.10); --edge:rgba(46,125,91,.30)">
+        <div class="dot">F0</div>
+        <div>
+          <span class="tag">Stage 1 · Simple steatosis</span>
+          <h3>Fat builds up — usually with zero symptoms</h3>
+          <p>More than 5% of liver cells contain fat. The liver may be slightly enlarged, but it still works normally. Most people are discovered by accident: routine bloodwork shows mildly raised liver enzymes, or an ultrasound done for another reason shows a "bright" liver.</p>
+          <p class="rev"><b>Reversibility:</b> Highly reversible. Weight loss, diet and activity can clear the fat entirely.</p>
+        </div>
+      </div>
+      <div class="arrow">▼</div>
+
+      <div class="rung" style="--c:var(--s2); --tint:rgba(209,148,20,.13); --edge:rgba(209,148,20,.34)">
+        <div class="dot">F0–F1</div>
+        <div>
+          <span class="tag">Stage 2 · MASH (inflammation begins)</span>
+          <h3>The fat starts irritating and injuring liver cells</h3>
+          <p>Roughly <b>20–30%</b> of people with MASLD progress to MASH.<sup class="ref"><a href="#s4">[4]</a></sup> The liver becomes inflamed and liver cells begin to die. Symptoms are still often absent or vague — fatigue, a dull ache under the right ribs. On average, fibrosis advances about one stage every <b>14 years</b> in simple MASLD but every <b>7 years</b> once MASH is present.<sup class="ref"><a href="#s4">[4]</a></sup></p>
+          <p class="rev"><b>Reversibility:</b> Still largely reversible with treatment and lifestyle change.</p>
+        </div>
+      </div>
+      <div class="arrow">▼</div>
+
+      <div class="rung" style="--c:var(--s3); --tint:rgba(207,91,24,.11); --edge:rgba(207,91,24,.32)">
+        <div class="dot">F2–F3</div>
+        <div>
+          <span class="tag">Stage 3 · Fibrosis (scarring)</span>
+          <h3>Scar tissue replaces healthy liver tissue</h3>
+          <p>Persistent inflammation lays down collagen. The liver stiffens. At <b>F2–F3 (moderate to advanced fibrosis)</b> the liver may still function well enough that you feel fine — this is why fibrosis stage, not symptoms, is the strongest predictor of outcomes.<sup class="ref"><a href="#s7">[7]</a></sup> Around <b>10–25% of people with MASH</b> progress to advanced fibrosis or cirrhosis.<sup class="ref"><a href="#s10">[10]</a></sup></p>
+          <p class="rev"><b>Reversibility:</b> Partially reversible. This is the stage where approved MASH medications may be considered by a specialist.</p>
+        </div>
+      </div>
+      <div class="arrow">▼</div>
+
+      <div class="rung" style="--c:var(--s4); --tint:rgba(163,35,32,.10); --edge:rgba(163,35,32,.30)">
+        <div class="dot">F4</div>
+        <div>
+          <span class="tag">Stage 4 · Cirrhosis</span>
+          <h3>Widespread, permanent scarring — and now symptoms appear</h3>
+          <p>The liver is nodular, shrunken and stiff. Blood flow through it is obstructed (portal hypertension). This is typically when unmistakable signs show up: jaundice, abdominal fluid, confusion, easy bleeding. Scarring to cirrhosis is usually slow — years to decades.<sup class="ref"><a href="#s4">[4]</a></sup> Average 10-year survival at F4 is around <b>51%</b>, versus ~89–93% at F0–F2.<sup class="ref"><a href="#s4">[4]</a></sup></p>
+          <p class="rev"><b>Reversibility:</b> Largely irreversible. Treatment focuses on stopping further damage, managing complications, screening for liver cancer, and — in decompensated cases — transplant evaluation.</p>
+        </div>
+      </div>
+      <div class="arrow">▼</div>
+
+      <div class="rung" style="--c:var(--s5); --tint:rgba(109,21,18,.10); --edge:rgba(109,21,18,.30)">
+        <div class="dot">ESLD</div>
+        <div>
+          <span class="tag">Stage 5 · Complications</span>
+          <h3>Liver failure and liver cancer</h3>
+          <p>Decompensated cirrhosis brings liver failure. Fatty liver disease is also now the <b>fastest-growing cause of hepatocellular carcinoma (liver cancer)</b> worldwide.<sup class="ref"><a href="#s11">[11]</a></sup> Importantly, <b>up to a quarter or more of fatty-liver-related liver cancers occur in people who never reached cirrhosis</b><sup class="ref"><a href="#s11">[11]</a></sup> — another reason not to wait for symptoms before getting checked.</p>
+          <p class="rev"><b>Reversibility:</b> Not reversible. Requires specialist care.</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="note-in" style="margin-top:16px">
+      <strong>One important caveat:</strong> progression is not a one-way conveyor belt. Long-term biopsy studies show that
+      a meaningful share of people stay stable for years, and some improve — while roughly <b>20% progress faster than
+      average</b>.<sup class="ref"><a href="#s7">[7]</a></sup> Where you land depends heavily on diabetes control, body weight, alcohol,
+      genetics and how early you act. That variability is exactly why individual medical assessment matters more than any
+      general statistic on this page.
+    </p>
+  </section>
+
+  <!-- 3. EARLY SIGNS -->
+  <section id="early" aria-labelledby="early-h">
+    <div class="sec-head">
+      <div class="sec-num">3</div>
+      <div>
+        <h2 id="early-h">Early signs: the phase where almost nothing happens</h2>
+        <p>This is the most important section on the page — because the early stage is the most treatable, and the least noticeable.</p>
+      </div>
+    </div>
+
+    <div class="banner" style="margin-top:0">
+      <h2>⚠ The central fact about early fatty liver</h2>
+      <p style="margin-bottom:0">
+        <b>Most people with early NAFLD/MASLD have no symptoms whatsoever.</b> It can take years — often decades — for fat
+        accumulation to change how the organ works, so the liver can sustain serious damage before you feel anything at
+        all.<sup class="ref"><a href="#s2">[2]</a><a href="#s3">[3]</a></sup> Many people are not diagnosed until the disease has already progressed to MASH,
+        and many more are never diagnosed. Do not use the absence of symptoms as evidence that your liver is healthy.
+      </p>
+    </div>
+
+    <div class="stage-cols">
+      <article class="scol early">
+        <header>
+          <h3>Early-stage symptoms</h3>
+          <p>Simple steatosis → early MASH · F0–F1</p>
+        </header>
+        <div class="body">
+          <p style="font-size:.93rem;color:var(--ink-mute)">When symptoms do appear this early, they are <b>nonspecific</b> — meaning dozens of other conditions cause the same things. The two most commonly reported are fatigue and abdominal discomfort.<sup class="ref"><a href="#s2">[2]</a></sup></p>
+          <ul>
+            <li><b>Persistent fatigue or weakness</b> — tiredness that doesn't resolve with rest, and is easy to blame on work, age or stress.</li>
+            <li><b>Discomfort, fullness or a dull ache in the upper right abdomen</b> — under the right rib cage, where the liver sits. May feel sharp, dull or aching.</li>
+            <li><b>A generally "unwell" feeling</b> (malaise) with no clear explanation.</li>
+            <li><b>Mildly elevated liver enzymes</b> (ALT / AST) found on routine bloodwork — often the <i>only</i> early clue.</li>
+            <li><b>An enlarged liver</b> (hepatomegaly) found by a doctor's examination or an imaging scan done for something else.</li>
+          </ul>
+          <div class="note-in">
+            <strong>Easy to overlook:</strong> increased thirst · trouble sleeping or sleep apnoea · indigestion and bloating ·
+            "brain fog" or difficulty concentrating · reduced appetite · unexplained weight loss · mild itchiness.<sup class="ref"><a href="#s2">[2]</a><a href="#s3">[3]</a></sup>
+          </div>
+          <div class="note-in" style="margin-bottom:0">
+            <strong>Why fatigue gets missed:</strong> obesity and type 2 diabetes — which usually appear <i>before</i> fatty liver —
+            cause fatigue on their own. So increasing tiredness from the liver blends into tiredness you've already
+            accepted as normal.<sup class="ref"><a href="#s3">[3]</a></sup>
+          </div>
+        </div>
+      </article>
+
+      <article class="scol mid">
+        <header>
+          <h3>Middle / progressing-stage signs</h3>
+          <p>MASH with significant fibrosis · F2–F3</p>
+        </header>
+        <div class="body">
+          <p style="font-size:.93rem;color:var(--ink-mute)">As inflammation and scarring advance, early symptoms intensify and new ones appear. Some people still have none — which is why <b>staging requires tests, not feelings</b>.</p>
+          <ul>
+            <li><b>Worsening fatigue</b> and reduced exercise tolerance.</li>
+            <li><b>Nausea</b>, loss of appetite, and unintentional weight loss.</li>
+            <li><b>More constant right-upper-abdominal pain</b> or a sensation of pressure.</li>
+            <li><b>Itchy skin</b> (pruritus) that has no rash and doesn't respond to moisturiser.</li>
+            <li><b>Joint or muscle aches</b> and general malaise.</li>
+            <li><b>Difficulty concentrating</b>, memory lapses, mild confusion — early hints that the liver is clearing toxins less well.</li>
+            <li><b>Mild ankle swelling</b> that appears by evening.</li>
+            <li><b>Worsening control of diabetes, cholesterol or blood pressure</b> despite unchanged medication — a metabolic red flag clinicians watch for.</li>
+            <li><b>Darkening urine</b> or paler-than-usual stools, even intermittently.</li>
+          </ul>
+          <div class="note-in" style="margin-bottom:0">
+            <strong>Act at this stage.</strong> F2–F3 is the window where treatment has the most to gain: scarring can still
+            partially regress, and this is the fibrosis range in which approved MASH therapies are indicated.<sup class="ref"><a href="#s12">[12]</a><a href="#s13">[13]</a></sup>
+            It is also the range where a specialist referral changes your trajectory.
+          </div>
+        </div>
+      </article>
+
+      <article class="scol late" id="late">
+        <header>
+          <h3>Late-stage signs</h3>
+          <p>Cirrhosis &amp; liver failure · F4 and beyond</p>
+        </header>
+        <div class="body">
+          <p style="font-size:.93rem;color:var(--ink-mute)">These are signs of a liver that is failing and of portal hypertension. They are <b>not</b> subtle, and they are <b>not</b> something to monitor at home.<sup class="ref"><a href="#s3">[3]</a><a href="#s6">[6]</a></sup></p>
+          <ul>
+            <li><b>Jaundice</b> — yellowing of the skin and the whites of the eyes.</li>
+            <li><b>Ascites</b> — a swollen, tense, fluid-filled abdomen that can develop quickly.</li>
+            <li><b>Oedema</b> — swelling of the ankles, feet and legs.</li>
+            <li><b>Hepatic encephalopathy</b> — confusion, disorientation, memory loss, personality change, daytime sleepiness with night-time wakefulness, a flapping hand tremor, and in severe cases hallucinations or coma.</li>
+            <li><b>Easy bruising and bleeding</b> — nosebleeds, bleeding gums, prolonged bleeding from small cuts (the liver has stopped making clotting factors).</li>
+            <li><b>Spider angiomas</b> — small spider-like blood vessels visible under the skin, usually above the waist.</li>
+            <li><b>Palmar erythema</b> — reddened or blotchy palms.</li>
+            <li><b>Dark, tea-coloured urine</b> and <b>pale, clay-coloured or black tarry stools</b>.</li>
+            <li><b>Severe, relentless itching</b> over the whole body.</li>
+            <li><b>Muscle wasting</b> — thinning arms and legs alongside a distended belly.</li>
+            <li><b>Vomiting blood</b>, or black vomit that looks like coffee grounds — usually from ruptured oesophageal varices.</li>
+            <li><b>Hormonal changes</b> — breast enlargement in men, testicular shrinkage, loss of libido, menstrual irregularity.</li>
+            <li><b>Enlarged spleen</b> and low platelet count found on testing.</li>
+            <li><b>Shortness of breath</b>, fever, and profound weakness.</li>
+          </ul>
+          <div class="note-in" style="margin-bottom:0">
+            <strong>Reality check:</strong> by the time these appear, damage is largely permanent. Everything above this point
+            on the page exists so you can intervene <i>before</i> you get here.
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 4. WARNING -->
+  <section id="warning" aria-labelledby="warn-h" style="border-bottom:0; padding-bottom:20px">
+    <div class="alert">
+      <span class="flag">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1.2 1.6 13.4a.7.7 0 0 0 .6 1.1h11.6a.7.7 0 0 0 .6-1.1L8 1.2Zm0 4a.8.8 0 0 1 .8.8l-.1 3a.7.7 0 0 1-1.4 0l-.1-3A.8.8 0 0 1 8 5.2Zm0 6.9a.95.95 0 1 1 0-1.9.95.95 0 0 1 0 1.9Z"/></svg>
+        Seek emergency care now
+      </span>
+      <h2 id="warn-h">Warning: go to an emergency room immediately if you have any of these</h2>
+      <p>
+        Fatty liver itself is rarely an emergency. Its <b>complications</b> are. The signs below suggest internal bleeding,
+        liver failure or severe infection and can become life-threatening within hours. Do not wait for a clinic
+        appointment, do not "sleep on it," and do not try to self-treat.<sup class="ref"><a href="#s2">[2]</a></sup>
+      </p>
+      <div class="alert-grid">
+        <div class="alert-item"><b>Vomiting blood</b>or vomit that looks like dark coffee grounds.</div>
+        <div class="alert-item"><b>Black, tarry stools</b>or visible blood in the stool.</div>
+        <div class="alert-item"><b>Confusion</b>, disorientation, extreme drowsiness, or behaviour that isn't like you.</div>
+        <div class="alert-item"><b>New or rapidly worsening jaundice</b>— yellow eyes and skin.</div>
+        <div class="alert-item"><b>Sudden, severe abdominal swelling</b>or intense abdominal pain.</div>
+        <div class="alert-item"><b>Fever with belly pain</b>— possible infection of abdominal fluid (spontaneous bacterial peritonitis).</div>
+        <div class="alert-item"><b>Uncontrolled bleeding</b>or sudden widespread bruising.</div>
+        <div class="alert-item"><b>Severe shortness of breath</b>, fainting, or a racing heart.</div>
+      </div>
+      <div class="alert-cta">
+        <a class="btn btn-primary" href="#doctor">What to do &amp; who to call →</a>
+        <span>In the Philippines, dial <b style="color:#fff">911</b> for emergency services, or go to the nearest hospital ER.</span>
+      </div>
+      <p style="margin:16px 0 0; font-size:.86rem; color:#f3c9c6;">
+        This list is a general safety guide drawn from patient-education material published by liver foundations and
+        academic medical centres. It is not a triage protocol and it does not replace emergency medical judgement.
+        If you are unsure whether your situation is urgent, <b style="color:#fff">err on the side of going in</b>.
+      </p>
+    </div>
+  </section>
+
+  <!-- 5. RISK -->
+  <section id="risk" aria-labelledby="risk-h">
+    <div class="sec-head">
+      <div class="sec-num">4</div>
+      <div>
+        <h2 id="risk-h">Who is most likely to have it</h2>
+        <p>Fatty liver tracks closely with metabolic health. Under the 2023 definition, a diagnosis requires liver fat plus at least one of five cardiometabolic criteria.<sup class="ref"><a href="#s1">[1]</a></sup></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>The five cardiometabolic criteria (you need only <span style="color:var(--teal-dk)">one</span>)</h3>
+      <div class="tbl-scroll">
+        <table>
+          <thead><tr><th scope="col">Criterion</th><th scope="col">Threshold</th></tr></thead>
+          <tbody>
+            <tr><td><b>Body weight / waist</b></td><td>BMI ≥ 25 kg/m² — <b>or ≥ 23 kg/m² for people of Asian descent</b> — or waist circumference &gt; 94 cm (men) / &gt; 80 cm (women), or ethnicity-adjusted equivalent.</td></tr>
+            <tr><td><b>Blood sugar</b></td><td>Fasting glucose ≥ 100 mg/dL (5.6 mmol/L), or 2-hour post-load glucose ≥ 140 mg/dL, or HbA1c ≥ 5.7%, or diagnosed type 2 diabetes, or treatment for type 2 diabetes.</td></tr>
+            <tr><td><b>Blood pressure</b></td><td>≥ 130/85 mmHg, or specific antihypertensive drug treatment.</td></tr>
+            <tr><td><b>Triglycerides</b></td><td>≥ 150 mg/dL (1.70 mmol/L), or lipid-lowering treatment.</td></tr>
+            <tr><td><b>HDL cholesterol</b></td><td>≤ 40 mg/dL (1.0 mmol/L) in men, ≤ 50 mg/dL (1.3 mmol/L) in women, or lipid-lowering treatment.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note-in" style="margin-bottom:0"><strong>Note the Asian BMI cutoff.</strong> Because Asian populations accumulate visceral fat at lower body weights, the threshold is 23 kg/m² rather than 25. Many Filipinos who consider themselves "not fat" meet this criterion.</p>
+    </div>
+
+    <div class="grid-3">
+      <div class="risk">
+        <h3>🩸 Type 2 diabetes</h3>
+        <p>The strongest driver. Roughly 55–70% of people with type 2 diabetes have fatty liver, and diabetes accelerates scarring.<sup class="ref"><a href="#s14">[14]</a></sup></p>
+      </div>
+      <div class="risk">
+        <h3>⚖️ Overweight &amp; obesity</h3>
+        <p>Incidence is about three times higher in people with overweight or obesity than at normal weight — especially with belly (visceral) fat.<sup class="ref"><a href="#s14">[14]</a></sup></p>
+      </div>
+      <div class="risk">
+        <h3>🥤 Metabolic syndrome</h3>
+        <p>High triglycerides, low HDL and high blood pressure clustering together — the classic insulin-resistance pattern.</p>
+      </div>
+      <div class="risk">
+        <h3>🧬 Genetics &amp; family history</h3>
+        <p>Variants such as <code>PNPLA3</code>, <code>TM6SF2</code> and <code>MBOAT7</code> raise susceptibility. A family history of cirrhosis is a recognised screening trigger.<sup class="ref"><a href="#s9">[9]</a></sup></p>
+      </div>
+      <div class="risk">
+        <h3>📅 Age &amp; sex</h3>
+        <p>Prevalence rises with age and is generally higher in men until menopause, after which women's risk climbs. Diagnosis is most common from the 40s onward — but not exclusively.</p>
+      </div>
+      <div class="risk">
+        <h3>🧒 Children &amp; teens</h3>
+        <p>Paediatric prevalence is estimated at 5–10% and rising with childhood obesity.<sup class="ref"><a href="#s15">[15]</a></sup> Fatty liver is no longer an adult-only disease.</p>
+      </div>
+      <div class="risk">
+        <h3>🍷 Alcohol — even moderate</h3>
+        <p>Alcohol is not the <i>cause</i> of MASLD, but it accelerates damage. Regular intake above roughly 20 g/day (women) or 30 g/day (men) shifts the diagnosis toward MetALD and worsens outcomes.<sup class="ref"><a href="#s1">[1]</a><a href="#s12">[12]</a></sup></p>
+      </div>
+      <div class="risk">
+        <h3>💊 Medicines &amp; other conditions</h3>
+        <p>Some drugs (e.g. amiodarone, tamoxifen, methotrexate, long-term steroids, valproate), hepatitis C, hypothyroidism, PCOS and sleep apnoea are associated with liver fat.</p>
+      </div>
+      <div class="risk">
+        <h3>🌾 "Lean" fatty liver</h3>
+        <p>Non-obese people can and do develop it. Studies in the Philippines put lean NAFLD at roughly 12–31% of cases.<sup class="ref"><a href="#s16">[16]</a></sup> Normal weight ≠ safe.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. DIAGNOSIS -->
+  <section id="diagnosis" aria-labelledby="diag-h">
+    <div class="sec-head">
+      <div class="sec-num">5</div>
+      <div>
+        <h2 id="diag-h">How doctors actually confirm it</h2>
+        <p>Because symptoms are unreliable, diagnosis depends on tests. Here is the standard stepwise pathway used in current guidelines — useful to know before your appointment.</p>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3>Step 1 — Blood tests</h3>
+        <p><b>Liver function panel:</b> ALT, AST, GGT, alkaline phosphatase, bilirubin, albumin, and a platelet count.</p>
+        <p style="margin-bottom:0"><b>Metabolic panel:</b> fasting glucose or HbA1c, lipid profile, plus tests to exclude other causes — hepatitis B surface antigen, hepatitis C antibody, autoimmune markers, iron studies, thyroid function.</p>
+      </div>
+      <div class="card">
+        <h3>Step 2 — FIB-4 score</h3>
+        <p>A free, simple calculation from your <b>age, AST, ALT and platelet count</b> that estimates scarring risk. It is the recommended first-line risk assessment.<sup class="ref"><a href="#s9">[9]</a></sup></p>
+        <p style="margin-bottom:0">Roughly: <b>&lt; 1.3</b> suggests low risk of advanced fibrosis (re-check every 1–3 years); <b>1.3–2.67</b> is indeterminate and needs a second test; <b>&gt; 2.67</b> suggests advanced fibrosis and specialist referral. For people over 65, the lower cutoff is 2.0.<sup class="ref"><a href="#s17">[17]</a></sup></p>
+      </div>
+      <div class="card">
+        <h3>Step 3 — Imaging</h3>
+        <p><b>Abdominal ultrasound:</b> the usual first look; detects moderate-to-severe fat but can miss mild cases and says nothing about scarring.</p>
+        <p style="margin-bottom:0"><b>Elastography (FibroScan / VCTE):</b> measures liver stiffness (fibrosis) and fat (CAP). A liver stiffness measurement of <b>&lt; 8 kPa</b> helps rule out advanced fibrosis; <b>&gt; 12 kPa</b> helps rule it in.<sup class="ref"><a href="#s17">[17]</a></sup> <b>MRI-PDFF</b> and <b>MRE</b> are the most accurate non-invasive options.</p>
+      </div>
+      <div class="card">
+        <h3>Step 4 — Liver biopsy</h3>
+        <p>A small tissue sample examined under a microscope. Still the reference standard for confirming MASH and grading fibrosis F0–F4, but invasive and not needed for everyone.</p>
+        <p style="margin-bottom:0">Today, most staging is done non-invasively, and newer approved medicines can be started on the basis of imaging and blood tests rather than biopsy.<sup class="ref"><a href="#s12">[12]</a></sup></p>
+      </div>
+    </div>
+
+    <div class="banner">
+      <h2>Two traps that cause missed diagnoses</h2>
+      <p><b>1. "My liver enzymes are normal, so my liver is fine."</b> Not necessarily. Enzymes can stay within the reference range even while scarring advances, and some people have significant fibrosis with a completely normal ALT.<sup class="ref"><a href="#s5">[5]</a></sup> Normal bloodwork lowers suspicion; it does not remove it.</p>
+      <p style="margin-bottom:0"><b>2. "An ultrasound said mild fatty liver, so nothing more is needed."</b> Ultrasound detects fat, not scarring. Detecting fat is the <i>start</i> of the workup — the question that actually determines your prognosis is <b>how much fibrosis is present</b>, and that needs a FIB-4 score or elastography.</p>
+    </div>
+  </section>
+
+  <!-- 7. TREATMENT -->
+  <section id="treatment" aria-labelledby="tx-h">
+    <div class="sec-head">
+      <div class="sec-num">6</div>
+      <div>
+        <h2 id="tx-h">Treatment — and the genuinely good news</h2>
+        <p>Caught early, fatty liver is one of the most reversible forms of organ damage there is.</p>
+      </div>
+    </div>
+
+    <div class="card" style="border-left:6px solid var(--teal)">
+      <h3>Lifestyle remains the foundation</h3>
+      <ul>
+        <li><b>Weight loss of 5–10% of body weight</b> is the single most effective intervention — it reduces liver fat, resolves inflammation and can improve fibrosis. Even 3–5% helps reduce fat.<sup class="ref"><a href="#s9">[9]</a></sup></li>
+        <li><b>150–250 minutes of moderate exercise per week</b> (brisk walking, cycling, swimming) — plus resistance training. Exercise reduces liver fat even without weight loss.<sup class="ref"><a href="#s17">[17]</a></sup></li>
+        <li><b>Mediterranean-style eating:</b> vegetables, whole grains, legumes, fish, nuts, olive oil. Cut <b>added sugar, sugar-sweetened drinks and fructose</b> — these are among the strongest dietary drivers of liver fat.</li>
+        <li><b>Avoid alcohol</b>, or keep it minimal. There is no known "safe" amount once scarring has begun.</li>
+        <li><b>Control the co-existing conditions:</b> blood sugar, blood pressure and cholesterol. Statins are safe in fatty liver and are <i>not</i> a reason to avoid treatment.<sup class="ref"><a href="#s9">[9]</a></sup></li>
+        <li><b>Coffee</b> — regular consumption is associated with lower liver fat and fibrosis in observational studies. Not a treatment, but not something to avoid.</li>
+        <li><b>Vaccinate</b> against hepatitis A and hepatitis B if you're not immune, so a second liver insult doesn't stack on the first.</li>
+      </ul>
+      <div class="note-in" style="margin-bottom:0">
+        <strong>A serious caution about supplements:</strong> do not self-prescribe "liver detox" teas, cleanses, high-dose
+        vitamins or herbal capsules. Herbal and dietary supplements are a well-documented and growing cause of
+        drug-induced liver injury, and they are frequently unregulated. Vitamin E at prescription doses has a role in
+        selected non-diabetic adults with biopsy-proven MASH, but guidelines do <b>not</b> support taking it routinely — the
+        long-term risk/benefit balance is unsettled.<sup class="ref"><a href="#s17">[17]</a></sup> <b>Ask your doctor before starting anything.</b>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Medicines approved for MASH (as of 2025–2026)</h3>
+      <p>For decades there was no approved drug. That has changed — but these are prescription medicines for a specific stage, decided by a specialist, never something to seek out on your own.</p>
+      <div class="grid-2" style="margin-bottom:0">
+        <div class="risk">
+          <h3>Resmetirom (Rezdiffra)</h3>
+          <p>The <b>first FDA-approved</b> MASH therapy (March 2024) — an oral, liver-directed thyroid hormone receptor-beta agonist. Indicated for adults with <b>non-cirrhotic MASH and moderate-to-advanced fibrosis (F2–F3)</b>, alongside diet and exercise. Not recommended in decompensated cirrhosis.<sup class="ref"><a href="#s12">[12]</a></sup></p>
+        </div>
+        <div class="risk">
+          <h3>Semaglutide (Wegovy 2.4 mg)</h3>
+          <p>The <b>first GLP-1 receptor agonist</b> approved for MASH (August 2025, accelerated approval based on the ESSENCE trial), also for non-cirrhotic MASH with F2–F3 fibrosis. In the trial, steatohepatitis resolved in 62.9% vs 34.3% on placebo.<sup class="ref"><a href="#s13">[13]</a></sup></p>
+        </div>
+      </div>
+      <p class="note-in"><strong>Also used:</strong> pioglitazone and GLP-1 agonists in people who also have type 2 diabetes; careful management of blood pressure, lipids and cardiovascular risk. <strong>Not recommended as a liver treatment:</strong> metformin (no histological benefit) and ursodeoxycholic acid.<sup class="ref"><a href="#s17">[17]</a></sup></p>
+      <p style="margin-bottom:0"><strong>Availability varies widely by country.</strong> Neither drug is necessarily approved, registered, reimbursed or affordable in every health system. This is a question for your own physician or pharmacist, not something this page can answer for you.</p>
+    </div>
+
+    <div class="card">
+      <h3>If cirrhosis has already developed</h3>
+      <p style="margin-bottom:0">Management shifts to preventing complications: low-sodium diet and diuretics for ascites, medication and endoscopic banding for oesophageal varices, lactulose or rifaximin for encephalopathy, <b>ultrasound surveillance for liver cancer every 6 months</b>, screening for portal hypertension, nutrition support, absolute alcohol abstinence, and liver transplant evaluation in decompensated disease.<sup class="ref"><a href="#s17">[17]</a></sup></p>
+    </div>
+  </section>
+
+  <!-- 8. MYTHS -->
+  <section id="myths" aria-labelledby="myth-h">
+    <div class="sec-head">
+      <div class="sec-num">7</div>
+      <div>
+        <h2 id="myth-h">Eight myths that keep people from getting checked</h2>
+        <p>Each of these is a real reason people delay — and each is wrong.</p>
+      </div>
+    </div>
+    <div class="grid-2">
+      <div class="myth"><div class="m"><span class="ico">✕</span>"I'm thin, so I can't have fatty liver."</div><div class="f"><span class="ico">✓</span><span>Lean and non-obese fatty liver is well documented — roughly <b>12–31% of cases in Philippine studies</b>, and around 11.7% of non-obese people in pooled South-East Asian data.<sup class="ref"><a href="#s16">[16]</a></sup> Visceral belly fat and insulin resistance matter more than the number on the scale.</span></div></div>
+      <div class="myth"><div class="m"><span class="ico">✕</span>"My blood test was normal."</div><div class="f"><span class="ico">✓</span><span>Normal ALT does not exclude disease. Some people have <b>significant fibrosis with normal liver enzymes</b>.<sup class="ref"><a href="#s5">[5]</a></sup></span></div></div>
+      <div class="myth"><div class="m"><span class="ico">✕</span>"I don't drink, so my liver is safe."</div><div class="f"><span class="ico">✓</span><span>Alcohol is only one cause. Fatty liver is now driven mainly by <b>metabolic factors</b> — which is exactly why the name changed in 2023.<sup class="ref"><a href="#s1">[1]</a></sup></span></div></div>
+      <div class="myth"><div class="m"><span class="ico">✕</span>"I feel fine, so there's nothing wrong."</div><div class="f"><span class="ico">✓</span><span>Fatty liver has been called a <b>silent disease</b> for good reason. Symptoms typically arrive at MASH or cirrhosis — years after damage began.<sup class="ref"><a href="#s2">[2]</a></sup></span></div></div>
+      <div class="myth"><div class="m"><span class="ico">✕</span>"It's just fat. It's harmless."</div><div class="f"><span class="ico">✓</span><span>It is the <b>most common chronic liver disease worldwide</b>, the fastest-growing cause of liver cancer, and it roughly <b>1.5×–2.5× your cardiovascular risk</b>.<sup class="ref"><a href="#s11">[11]</a><a href="#s18">[18]</a></sup> People with MASLD live about three years less on average.<sup class="ref"><a href="#s4">[4]</a></sup></span></div></div>
+      <div class="myth"><div class="m"><span class="ico">✕</span>"Once you have it, it's permanent."</div><div class="f"><span class="ico">✓</span><span>Early-stage disease is <b>often fully reversible</b> with weight loss and metabolic control. Long-term studies show improvement in a meaningful proportion of patients.<sup class="ref"><a href="#s7">[7]</a></sup></span></div></div>
+      <div class="myth"><div class="m"><span class="ico">✕</span>"It only happens to older adults."</div><div class="f"><span class="ico">✓</span><span>Paediatric prevalence is estimated at <b>5–10%</b> and rising alongside childhood obesity.<sup class="ref"><a href="#s15">[15]</a></sup></span></div></div>
+      <div class="myth"><div class="m"><span class="ico">✕</span>"A liver cleanse or detox tea will fix it."</div><div class="f"><span class="ico">✓</span><span>No detox product has proven benefit, and herbal supplements are a recognised cause of <b>drug-induced liver injury</b>. What works is unglamorous: weight loss, diet, exercise and medical care.</span></div></div>
+    </div>
+  </section>
+
+  <!-- 9. PHILIPPINES -->
+  <section id="philippines" aria-labelledby="ph-h">
+    <div class="sec-head">
+      <div class="sec-num">8</div>
+      <div>
+        <h2 id="ph-h">If you are reading this from the Philippines</h2>
+        <p>Some context specific to the local situation — the risk factors here are moving in the wrong direction.</p>
+      </div>
+    </div>
+
+    <div class="ph">
+      <div class="flagrow">
+        <svg width="30" height="20" viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="20" fill="#0038a8"/><rect y="20" width="60" height="20" fill="#ce1126"/><path d="M0 0 26 20 0 40Z" fill="#fff"/><circle cx="8" cy="20" r="3.4" fill="#fcd116"/></svg>
+        <h3 style="margin:0">Local data worth knowing</h3>
+      </div>
+      <ul>
+        <li><b>There is still no national prevalence figure for fatty liver disease in the Philippines.</b> Hospital-based studies estimate a range of roughly <b>10–19.9%</b>, while some community screening has found substantially higher rates — one review notes around one-third of the general population.<sup class="ref"><a href="#s16">[16]</a></sup> The honest answer is: <i>we don't know the true national number yet.</i></li>
+        <li>A study at the Philippine General Hospital found NAFLD in <b>12.2%</b> of liver-disease patients; a later multi-centre Liver Databank study found <b>19.31%</b>, making it the second most common liver disease in the country after hepatitis B — with cases rising about <b>30% between 2010 and 2017</b>.<sup class="ref"><a href="#s16">[16]</a></sup></li>
+        <li><b>Diabetes is extremely common among Filipino fatty-liver patients</b> — reported in 47–69% of cases, well above the global pooled figure of about 22.5%.<sup class="ref"><a href="#s16">[16]</a></sup></li>
+        <li>The DOST-FNRI 2025 Updating Survey found obesity among Filipino adults aged 20–59 had risen from <b>39.8% (2023) to 44.5% (2025)</b> — nearly one in two adults — and higher among women (50.1%), urban residents (48.3%) and the wealthiest households (57.8%).<sup class="ref"><a href="#s19">[19]</a></sup> Obesity is a direct driver of fatty liver.</li>
+        <li>The survey uses the <b>Asia-Pacific BMI classification, where ≥ 25 kg/m² counts as obese</b> — a lower bar than Western cutoffs, because Asian bodies carry more metabolic risk at the same weight.</li>
+        <li><b>Hepatitis B is endemic here (~10%).</b> That matters: a person can have fatty liver <i>and</i> viral hepatitis at the same time, and the two together damage the liver faster than either alone. It also means a "fatty liver" finding on ultrasound should never be assumed to be the whole story without proper blood tests.</li>
+        <li>Liver diseases accounted for about <b>27.3 per 1,000 deaths</b> in the Philippines, and liver cirrhosis prevalence is estimated at 328.4 per 100,000 for compensated disease.<sup class="ref"><a href="#s16">[16]</a></sup></li>
+      </ul>
+      <p class="ph-note">
+        <b>Where to start locally:</b> a barangay health centre or any general physician can order the basic bloodwork
+        (liver enzymes, fasting glucose or HbA1c, lipid profile) and an abdominal ultrasound. From there, a
+        <b>gastroenterologist or hepatologist</b> handles staging and specialist treatment. PhilHealth coverage for specific
+        tests and medicines changes over time — confirm current coverage with your facility or with PhilHealth directly.
+        For a medical emergency, call <b>911</b>.
+      </p>
+    </div>
+  </section>
+
+  <!-- 10. SEE A DOCTOR -->
+  <section id="doctor" aria-labelledby="doc-h">
+    <div class="sec-head">
+      <div class="sec-num">9</div>
+      <div>
+        <h2 id="doc-h">Please get checked — and here's how to make the visit count</h2>
+        <p>You cannot diagnose fatty liver from a webpage, an app, a symptom list or a home test. Here's what to bring instead.</p>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3>Consider booking an appointment if…</h3>
+        <ul class="checks">
+          <li>You have <b>type 2 diabetes, prediabetes, obesity, high blood pressure or high cholesterol</b> — screening for advanced fibrosis is recommended in these groups.<sup class="ref"><a href="#s9">[9]</a></sup></li>
+          <li>A previous <b>ultrasound or blood test mentioned "fatty liver," "hepatic steatosis" or raised ALT/AST</b> and you never followed up.</li>
+          <li>You have <b>ongoing fatigue</b> or a persistent ache under your right ribs.</li>
+          <li>There is a <b>family history of cirrhosis, liver cancer or fatty liver</b>.</li>
+          <li>You <b>drink alcohol regularly</b> and also carry metabolic risk factors.</li>
+          <li>You are <b>over 40</b> with a growing waistline and have never had liver enzymes checked.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Bring these to your appointment</h3>
+        <ul class="checks">
+          <li><b>All previous results</b> — bloodwork, ultrasound reports, CT/MRI, anything mentioning your liver. Trends matter more than single numbers.</li>
+          <li><b>A complete list of everything you take</b>: prescription drugs, over-the-counter medicines, vitamins, herbal products, teas and supplements. This is essential — some of these affect the liver.</li>
+          <li><b>An honest alcohol history</b> — how many drinks, how often, over how long. Doctors can only stage correctly if this is accurate; there is nothing to be embarrassed about.</li>
+          <li><b>Your weight history</b> and any recent unintentional weight change.</li>
+          <li><b>Your symptom timeline</b> — what you've noticed, when it started, what makes it better or worse.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Questions worth asking your doctor</h3>
+      <ol style="margin-bottom:0">
+        <li>Do I have fat in my liver — and if so, <b>how much scarring (fibrosis) is there</b>? That's the question that determines my risk.</li>
+        <li>Can we calculate my <b>FIB-4 score</b> from the blood tests you've already ordered?</li>
+        <li>Should I have <b>elastography (FibroScan)</b> or another staging test, rather than ultrasound alone?</li>
+        <li>Do I need screening for <b>hepatitis B and hepatitis C</b> as well?</li>
+        <li>How much <b>weight do I need to lose</b>, and what is a realistic timeline?</li>
+        <li>Are any of my <b>current medicines or supplements</b> hard on my liver?</li>
+        <li>Do I need a referral to a <b>gastroenterologist or hepatologist</b>?</li>
+        <li>How often should I <b>repeat testing</b> — and what result would change the plan?</li>
+        <li>Am I a candidate for any <b>approved MASH medication</b>, and is it available and covered here?</li>
+        <li>Should I be <b>screened for liver cancer</b>?</li>
+      </ol>
+    </div>
+
+    <div class="banner">
+      <h2>Why we keep repeating this</h2>
+      <p>
+        This page was written to help you recognise a silent, common and largely reversible condition early — and to
+        push you toward a real consultation, not to replace one.
+      </p>
+      <p>
+        Health information online is general by nature. Your liver is not. Two people with identical symptoms can have
+        completely different diagnoses; two people with the same diagnosis can have completely different fibrosis stages
+        and completely different prognoses. The symptoms listed above are shared with gallbladder disease, hepatitis,
+        ulcer, kidney problems, heart failure, thyroid disease, anaemia, depression and dozens more. Only a clinician who
+        examines you, reviews your history and orders the right tests can sort that out.
+      </p>
+      <p style="margin-bottom:0">
+        <b>If something on this page made you uneasy about your own health — treat that as a reason to book an
+        appointment, not as a diagnosis.</b> And if you have any of the emergency warning signs, stop reading and seek
+        care now.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" aria-labelledby="faq-h">
+    <div class="sec-head">
+      <div class="sec-num">10</div>
+      <div><h2 id="faq-h">Frequently asked questions</h2></div>
+    </div>
+    <details>
+      <summary>Can fatty liver be cured completely?</summary>
+      <div class="a"><p>In the early stages, often yes. Simple steatosis and early MASH can resolve with sustained weight loss of 5–10%, dietary change, physical activity and control of diabetes and lipids. Once cirrhosis (F4) is established, the scarring is largely permanent — though progression can usually be slowed or stopped, and some fibrosis can regress with effective treatment. This is precisely why timing matters so much.</p></div>
+    </details>
+    <details>
+      <summary>How fast does it get worse?</summary>
+      <div class="a"><p>On average, fibrosis advances about one stage every 14 years in simple MASLD and about every 7 years once MASH is present.<sup class="ref"><a href="#s4">[4]</a></sup> That's an average — roughly one in five people progress considerably faster, especially with uncontrolled type 2 diabetes, ongoing alcohol use or obesity.<sup class="ref"><a href="#s7">[7]</a></sup> Progression to cirrhosis typically takes years to decades.</p></div>
+    </details>
+    <details>
+      <summary>Is NAFLD the same thing as MASLD?</summary>
+      <div class="a"><p>Yes — for the overwhelming majority of patients they describe the same disease. The name changed by international consensus in June 2023.<sup class="ref"><a href="#s1">[1]</a></sup> The diagnostic criteria are slightly different (MASLD requires at least one positive metabolic risk factor, rather than merely excluding alcohol), but an older "NAFLD" or "NASH" report remains medically valid. NASH is now MASH.</p></div>
+    </details>
+    <details>
+      <summary>Will I need a liver transplant?</summary>
+      <div class="a"><p>Most people never will. Transplant becomes a consideration only when disease progresses to decompensated cirrhosis — typically signalled by jaundice, ascites, variceal bleeding or hepatic encephalopathy.<sup class="ref"><a href="#s3">[3]</a></sup> Fatty liver disease has nonetheless become one of the leading indications for liver transplantation in many countries, which is why early detection is emphasised so heavily.</p></div>
+    </details>
+    <details>
+      <summary>What's the difference between this and alcoholic liver disease?</summary>
+      <div class="a"><p>Both cause fat, inflammation and scarring, and both can end in cirrhosis. The difference is the primary driver: alcohol intake versus metabolic dysfunction. Fatty-liver symptoms tend to be milder, slower and vaguer, developing over years or decades; alcohol-related liver disease often produces jaundice and abdominal fluid more rapidly, particularly with heavy daily intake.<sup class="ref"><a href="#s2">[2]</a></sup> The two frequently overlap — that combination is now classified as <b>MetALD</b>, and it carries a worse outlook than either alone.</p></div>
+    </details>
+    <details>
+      <summary>Can children get fatty liver?</summary>
+      <div class="a"><p>Yes. Paediatric prevalence is estimated at 5–10% and is rising with childhood obesity.<sup class="ref"><a href="#s15">[15]</a></sup> Global pooled data suggest roughly 9% in boys and 6.3% in girls, with far higher rates among children with obesity. There is no national paediatric prevalence data for the Philippines yet.<sup class="ref"><a href="#s16">[16]</a></sup> If your child has obesity, type 2 diabetes or abnormal liver enzymes, raise it with a paediatrician.</p></div>
+    </details>
+    <details>
+      <summary>Does having fatty liver mean I'll get liver cancer?</summary>
+      <div class="a"><p>No — the absolute risk for most people is low, but it is meaningfully higher than average and rises steeply with fibrosis stage. MASLD is the fastest-growing cause of hepatocellular carcinoma worldwide.<sup class="ref"><a href="#s11">[11]</a></sup> In large pooled analyses, people with MASLD <i>and</i> advanced fibrosis had roughly an 8–11× higher liver cancer risk than those without advanced fibrosis. Concerningly, a substantial share of fatty-liver-related liver cancers occur in people who never developed cirrhosis — so staging and specialist follow-up matter.</p></div>
+    </details>
+    <details>
+      <summary>Should everyone get screened?</summary>
+      <div class="a"><p>Current AASLD guidance advises <b>against</b> screening the general population, but <b>recommends</b> risk assessment for high-risk groups — people with type 2 diabetes, medically complicated obesity, a family history of cirrhosis, or more than mild alcohol consumption — and FIB-4-based risk assessment for anyone with detected liver fat or suspected MASLD.<sup class="ref"><a href="#s9">[9]</a></sup> European guidance similarly recommends case-finding in people with type 2 diabetes, or abdominal obesity plus another metabolic risk factor, or persistently raised liver enzymes.<sup class="ref"><a href="#s17">[17]</a></sup> Discuss your individual risk with your doctor.</p></div>
+    </details>
+  </section>
+
+  <!-- SOURCES -->
+  <section id="sources" aria-labelledby="src-h">
+    <div class="sec-head">
+      <div class="sec-num">11</div>
+      <div>
+        <h2 id="src-h">Sources &amp; further reading</h2>
+        <p>The claims on this page are drawn from peer-reviewed literature, society guidelines and national health bodies. Consult the originals — and your doctor — before acting on anything.</p>
+      </div>
+    </div>
+    <div class="card src">
+      <p><b>Primary guidelines &amp; nomenclature</b></p>
+      <ol>
+        <li id="s1">Rinella ME, Lazarus JV, Ratziu V, et al. <i>A multisociety Delphi consensus statement on new fatty liver disease nomenclature.</i> Journal of Hepatology 2023;79(6):1542–1556; Hepatology 2023;78(6):1966–1986. <small>(236 panellists, 56 countries; established MASLD/MASH/MetALD and the five cardiometabolic criteria.)</small> — EASL summary: <a href="https://easl.eu/news/new_fatty_liver_disease_nomenclature-2/" rel="noopener">easl.eu</a></li>
+        <li id="s9">AASLD. <i>Practice Guidance on the clinical assessment and management of nonalcoholic fatty liver disease.</i> Hepatology 2023. — <a href="https://journals.lww.com/hep/fulltext/10.1097/hep.0000000000000323~aasld-practice-guidance-on-the-clinical-assessment-and" rel="noopener">journals.lww.com/hep</a> <small>(FIB-4 first-line assessment; screening recommendations; weight-loss targets.)</small></li>
+        <li id="s12">AASLD. <i>Resmetirom Therapy for Metabolic Dysfunction-Associated Steatotic Liver Disease</i> (updated practice guidance). — summary: <a href="https://www.guidelinecentral.com/guideline/4018844/" rel="noopener">guidelinecentral.com</a> <small>(F2–F3 eligibility, dosing, contraindications, monitoring.)</small></li>
+        <li id="s17">EASL–EASD–EASO. <i>Clinical Practice Guidelines on the Management of Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD).</i> J Hepatol / Obesity Facts 2024. — <a href="https://karger.com/ofa/article/17/4/374/908875/" rel="noopener">karger.com</a> <small>(Multi-step FIB-4 → elastography pathway; cutoffs; exercise; vitamin E position.)</small></li>
+        <li id="s13">U.S. FDA. Accelerated approval of semaglutide (Wegovy 2.4 mg) for adults with non-cirrhotic MASH and moderate-to-advanced fibrosis, August 2025 (ESSENCE trial). — <a href="https://www.healio.com/news/gastroenterology/20250818/fda-approves-wegovy-for-certain-adults-with-noncirrhotic-mash" rel="noopener">healio.com</a>; U.S. FDA. <i>FDA Approves First Treatment for Patients with Liver Scarring Due to Fatty Liver Disease</i> (resmetirom), 14 March 2024. — <a href="https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-patients-liver-scarring-due-fatty-liver-disease" rel="noopener">fda.gov</a></li>
+      </ol>
+      <p style="margin-top:18px"><b>Epidemiology, natural history &amp; clinical features</b></p>
+      <ol start="6">
+        <li id="s8">Younossi ZM, et al. <i>Global epidemiology of nonalcoholic fatty liver disease.</i> Hepatology 2016. <small>(Global prevalence ~25.2%.)</small> See also Riazi K, et al. Lancet Gastroenterol Hepatol 2022 <small>(prevalence rising from ~26% pre-2005 to ~38% from 2016)</small> and Le MH, et al. Clin Gastroenterol Hepatol 2022. — review: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10029957/" rel="noopener">PMC10029957</a></li>
+        <li id="s6">Chan KE, et al. <i>Global incidence and prevalence of nonalcoholic fatty liver disease.</i> 2022. — <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10029957/" rel="noopener">pmc.ncbi.nlm.nih.gov/articles/PMC10029957</a> <small>(South-East Asia ~42%, the highest Asian sub-region; Asia overall ~30%.)</small></li>
+        <li id="s10">Lekakis V, Papatheodoridis GV. <i>MASLD: natural history and complications.</i> European Journal of Internal Medicine 2024;122:3–10. — <a href="https://www.ejinme.com/article/S0953-6205(23)00397-7/pdf" rel="noopener">ejinme.com</a> <small>(10–25% of MASH patients develop advanced fibrosis/cirrhosis; ~20% progress rapidly; fibrosis stage as strongest mortality predictor.)</small></li>
+        <li id="s4">Mayo Clinic. <i>Fatty liver disease (MASLD) — Survival rates.</i> — <a href="https://www.mayoclinic.org/diseases-conditions/fatty-liver-disease-masld/survival-rates/gnc-20590323" rel="noopener">mayoclinic.org</a> <small>(20–30% progress to MASH; 10-year survival F0–F2 ~89–93%, F3 ~81%, F4 ~51%; progression every ~7 years in MASH vs ~14 in MASLD; heart disease as No. 1 cause of death; ~3 years reduced life expectancy.)</small></li>
+        <li id="s7">Papatheodoridis GV, et al. / state-of-the-art reviews on MASLD natural history and cardiovascular risk. — <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10583766/" rel="noopener">PMC10583766</a>; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13428797/" rel="noopener">PMC13428797</a> <small>(CVD as leading cause of death; ~1.5× cardiovascular risk rising to ~2.5× with advanced fibrosis.)</small></li>
+        <li id="s11">Balakrishnan M, et al. <i>Cumulative HCC incidence in MASLD by fibrosis stage</i> — pooled meta-analysis of 26 cohorts, ~4 million individuals. Clinical Gastroenterology and Hepatology, 2026. — <a href="https://news.gastro.org/issues/2026/march/masld-fibrosis-significantly-drives-hcc-risk-study-finds/" rel="noopener">news.gastro.org</a>; see also <i>MASLD and the Development of HCC</i>, Cancers 2024;16(2):259 — <a href="https://www.mdpi.com/2072-6694/16/2/259" rel="noopener">mdpi.com</a> <small>(MASLD as fastest-growing cause of HCC; up to ~25–40% of MASLD-HCC arises without cirrhosis.)</small></li>
+        <li id="s18">Younossi ZM, et al. <i>MASLD: A State-of-the-Art Review.</i> 2023. — <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10583766/" rel="noopener">PMC10583766</a></li>
+        <li id="s2">Healthline, medically reviewed. <i>Symptoms of MASLD (or NAFLD).</i> — <a href="https://www.healthline.com/health/symptoms-of-masld" rel="noopener">healthline.com</a> <small>(Symptom lists and emergency warning signs.)</small></li>
+        <li id="s3">American Liver Foundation. <i>Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD).</i> — <a href="https://liverfoundation.org/liver-diseases/fatty-liver-disease/nonalcoholic-fatty-liver-disease-nafld/" rel="noopener">liverfoundation.org</a>; Medical News Today. <i>What to know about MASLD.</i> — <a href="https://www.medicalnewstoday.com/articles/312536" rel="noopener">medicalnewstoday.com</a>; Verywell Health. <i>An Overview of MASLD.</i> — <a href="https://www.verywellhealth.com/how-dangerous-is-non-alcoholic-fatty-liver-disease-2223390" rel="noopener">verywellhealth.com</a></li>
+        <li id="s14">Spectre AR / diabetes &amp; NAFLD burden reviews. <i>Understanding the Burden of Nonalcoholic Fatty Liver Disease.</i> Clinical Diabetes 2024;37(1):9–15. — <a href="https://diabetesjournals.org/spectrum/article/37/1/9/153831/" rel="noopener">diabetesjournals.org</a> <small>(NAFLD prevalence in type 2 diabetes 55–70%; incidence ~3× higher with overweight/obesity.)</small></li>
+        <li id="s15">AASLD Liver Fellow Network. <i>Steatotic — What? Changes in Fatty Liver Nomenclature.</i> — <a href="https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/steatotic-what-changes-fatty-liver-nomenclature" rel="noopener">aasld.org</a> <small>(Paediatric prevalence 5–10%.)</small></li>
+        <li id="s16">Philippine data: <i>Liver diseases: Perspective from the Philippines</i>, Annals of Hepatology 2023. — <a href="https://www.sciencedirect.com/science/article/pii/S1665268123001898" rel="noopener">sciencedirect.com</a>; De Lusong MAA, et al. <i>Non-alcoholic fatty liver disease in the Philippines: comparable with other nations?</i> — <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2687059/" rel="noopener">PMC2687059</a>; Aguila EJT. <i>Prevalence of NAFLD in the Philippines</i> (Liver Databank, 19.31%). — <a href="https://giresearch.ph/jrre/assets/docs/researchpapers/fulltext/Aguila,%20EJT%20-%20Retrospective%20Study%20-%20NAFLD%20Prevalence%20in%20the%20Philippines.pdf" rel="noopener">giresearch.ph</a></li>
+        <li id="s19">DOST-FNRI. <i>2025 Updating of the Nutritional Status of Filipino Children and Other Population Groups.</i> — <a href="https://www.fnri.dost.gov.ph/" rel="noopener">fnri.dost.gov.ph</a>; reporting: <a href="https://www.rappler.com/philippines/obesity-cases-fnri-national-nutrition-updating-survey-2025/" rel="noopener">Rappler</a>, <a href="https://www.gmanetwork.com/news/topstories/nation/991790/obesity-among-filipino-adults-youth-rises-in-2025-dost-fnri-survey/story/" rel="noopener">GMA News</a> <small>(Obesity among adults 20–59: 39.8% in 2023 → 44.5% in 2025.)</small></li>
+        <li id="s5">American Liver Foundation &amp; Verywell Health, on the 5–10% liver-fat threshold and normal enzyme levels. — see [3] above.</li>
+      </ol>
+      <p style="margin:18px 0 0; font-size:.83rem; color:var(--ink-mute)">
+        Compiled and written 3 October 2026. Medical guidance changes; the newest AASLD and EASL documents supersede older
+        NAFLD-era material. Where sources disagreed, the more recent society guideline was preferred. Reference numbers
+        match the superscript citations used throughout the page.
+      </p>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <h4>About this page</h4>
+        <p style="margin-bottom:0">An independent, non-commercial educational reference about fatty liver disease (NAFLD / MASLD), written in plain language and sourced from published medical literature and national health guidance. It is not published, reviewed or endorsed by any hospital, medical society, pharmaceutical company or government agency.</p>
+      </div>
+      <div>
+        <h4>Where to get real help</h4>
+        <ul style="padding-left:1.1em; margin:0">
+          <li>Your barangay health centre, family doctor or general physician</li>
+          <li>A gastroenterologist or hepatologist for staging and specialist care</li>
+          <li><b>Philippines emergency hotline: 911</b></li>
+          <li>Philippine Department of Health: <a href="https://doh.gov.ph" rel="noopener">doh.gov.ph</a></li>
+          <li>American Liver Foundation: <a href="https://liverfoundation.org" rel="noopener">liverfoundation.org</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Quick navigation</h4>
+        <ul style="padding-left:1.1em; margin:0">
+          <li><a href="#early">Early signs</a></li>
+          <li><a href="#late">Late signs</a></li>
+          <li><a href="#warning">Emergency warning signs</a></li>
+          <li><a href="#diagnosis">How it's diagnosed</a></li>
+          <li><a href="#doctor">Preparing for your visit</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="fine">
+      <p><b style="color:#ffd9a1">Medical disclaimer.</b> The content on this page is provided for general educational and informational purposes only. It is <b style="color:#fff">not</b> medical advice, <b style="color:#fff">not</b> a diagnosis, <b style="color:#fff">not</b> a substitute for professional medical consultation, and it was <b style="color:#fff">not</b> written or reviewed by a licensed physician for your specific case. Nothing here establishes a doctor–patient relationship. Do not use this information to self-diagnose, to start or stop any medication or supplement, or to delay seeking care.</p>
+      <p>Every person's situation is different. Symptoms described here overlap with many other conditions, and fatty liver disease frequently causes no symptoms at all until it is advanced — so the presence or absence of symptoms cannot confirm or exclude the disease. <b style="color:#fff">Only a qualified health professional, using your history, examination, blood tests and imaging, can determine whether you have fatty liver disease and how severe it is.</b> If you think you may be affected, or if anything you read here concerns you, please book a check-up. If you have any of the emergency warning signs, seek immediate medical attention.</p>
+      <p>The author and publisher of this page accept no liability for any action taken or not taken on the basis of this information. Figures quoted are estimates drawn from population studies and may not apply to you individually. Trademarked drug names are the property of their respective owners and are mentioned for identification only.</p>
+      <p style="margin-bottom:0">© 2026 · Independent educational resource · No affiliation with any medical institution · Please verify all health decisions with a licensed professional.</p>
+    </div>
+  </div>
+</footer>
+
+<a class="float" href="#warning" aria-label="Jump to emergency warning signs">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1.2 1.6 13.4a.7.7 0 0 0 .6 1.1h11.6a.7.7 0 0 0 .6-1.1L8 1.2Zm0 4a.8.8 0 0 1 .8.8l-.1 3a.7.7 0 0 1-1.4 0l-.1-3A.8.8 0 0 1 8 5.2Zm0 6.9a.95.95 0 1 1 0-1.9.95.95 0 0 1 0 1.9Z"/></svg>
+  <span>Warning signs</span>
+</a>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a44bf20dbee104e4',t:'MTc5MTAzMDQ5NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
